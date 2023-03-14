@@ -1,0 +1,55 @@
+.alculator {
+	
+	width: 200px;
+	margin: 40px auto;
+	padding: 20px;
+	border: 2px solid rgb(75, 69, 69);
+	background-color: #524a4a;
+	border-radius: 10px;
+  }
+  .name {
+	font-size: 20px;
+	font-weight: 200;
+	color: #5151d9;
+  }
+  
+  #display {
+	width: 100%;
+	margin-bottom: 10px;
+	font-size: 24px;
+	text-align: right;
+	border: none;
+	background-color: #464242;
+	border-radius: 5px;
+	padding: 5px;
+	border: 2px solid black;
+	color: white;
+  }
+  
+  .buttons {
+	display: grid;
+	grid-template-columns: repeat(4, 50px);
+	grid-gap: 5px;
+  }
+  
+  .button {
+	font-size: 20px;
+	background-color: #6e6969;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	cursor: pointer;
+  }
+  #differ {
+	background-color: olive;
+  }
+  #differ:hover {
+	background-color: gold;
+  }
+
+ 
+  .button:hover {
+	background-color: gold;
+  }
+  
